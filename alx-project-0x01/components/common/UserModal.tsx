@@ -1,4 +1,5 @@
 import { UserData, UserModalProps } from "@/interfaces/index";
+import Posts from "@/pages/posts";
 import React, { useState } from "react";
 
 const UserModal: React.FC<UserModalProps> = ({ onClose, onSubmit }) => {
