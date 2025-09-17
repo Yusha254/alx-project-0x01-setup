@@ -1,6 +1,6 @@
 import UserCard from "@/components/common/UserCard";
 import Header from "@/components/layout/Header";
-import { UserProps, UsersPageProps } from "@/interface";
+import { UserProps, UsersPageProps } from "@/interfaces";
 
 const Users = ({ posts }: UsersPageProps) => {
   console.log(posts);

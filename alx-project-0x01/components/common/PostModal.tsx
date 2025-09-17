@@ -1,4 +1,4 @@
-import { PostData, PostModalProps } from "@/interface/index";
+import { PostData, PostModalProps } from "@/interfaces/index";
 import React, { useState } from "react";
 
 const PostModal: React.FC<PostModalProps> = ({ onClose, onSubmit }) => {
