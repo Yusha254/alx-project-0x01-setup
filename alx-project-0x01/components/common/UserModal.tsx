@@ -1,4 +1,4 @@
-import { UserData, UserModalProps } from "@/interfaces/index";
+import { UserData, UserModalProps, UserProps } from "@/interfaces/index";
 import Posts from "@/pages/posts";
 import React, { useState } from "react";
 
@@ -55,7 +55,7 @@ const handleChange = (
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    onSubmit(user);
+    onSubmit(user as UserProps);
     onClose();
   };
 
