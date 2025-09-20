@@ -1,5 +1,4 @@
 import { UserData, UserModalProps, UserProps } from "@/interfaces/index";
-import Posts from "@/pages/posts";
 import React, { useState } from "react";
 
 const UserModal: React.FC<UserModalProps> = ({ onClose, onSubmit }) => {
@@ -51,7 +50,6 @@ const handleChange = (
     setUser((prevUser) => ({ ...prevUser, [name]: value }));
   }
 };
-
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
